@@ -6,7 +6,7 @@ name: jd_woHome
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '6 16 * * *'
   watch:
     types: started
   repository_dispatch:
