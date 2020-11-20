@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: baiTiao
+    types: jd_baiTiao
 jobs:
   build:
 
@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京东金融天天领白条券】'
+      - name: '运行 【京东金融领白条券】'
         run: |
           node jd_baiTiao.js
         env:
