@@ -6,7 +6,7 @@ name: jd_baiTiao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0,4,8,16 * * *'
+    - cron: '0 1,16 * * *'
   watch:
     types: started
   repository_dispatch:
