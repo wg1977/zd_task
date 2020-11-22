@@ -1,39 +1,14 @@
 {
   "name": "lxk0301",
   "version": "1.0.0",
-  "description": "jd_task",
+  "description": "{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}",
+  "main": "AlipayManor.js",
   "scripts": {
-    "jd_baiTiao": "node src/task/jd_baiTiao.js",
-    "jd_bean_change": "node src/task/jd_bean_change.js",
-    "jd_bean_sign": "node src/task/jd_bean_sign.js",
-    "jd_blueCoin": "node src/task/jd_blueCoin.js",
-    "jd_club_lottery": "node src/task/jd_club_lottery.js",
-    "jd_daily_egg": "node src/task/jd_daily_egg.js",
-    "jd_factory": "node src/task/jd_factory.js",
-    "jd_fruit": "node src/task/jd_fruit.js",
-    "jd_jingxi": "node src/task/jd_jingxi.js",
-    "jd_joy": "node src/task/jd_joy.js",
-    "jd_joy_feedPets": "node src/task/jd_joy_feedPets.js",
-    "jd_joy_reward": "node src/task/jd_joy_reward.js",
-    "jd_joy_steal": "node src/task/jd_joy_steal.js",
-    "jd_lotteryMachine": "node src/task/jd_lotteryMachine.js",
-    "jd_moneyTree": "node src/task/jd_moneyTree.js",
-    "jd_necklace": "node src/task/jd_necklace.js",
-    "jd_pet": "node src/task/jd_pet.js",
-    "jd_pigPet": "node src/task/jd_pigPet.js",
-    "jd_plantBean": "node src/task/jd_plantBean.js",
-    "jd_rankingList": "node src/task/jd_rankingList.js",
-    "jd_redPacket": "node src/task/jd_redPacket.js",
-    "jd_shareCodes_boarding": "node src/utils/jd_shareCodes_boarding.js",
-    "jd_shop": "node src/task/jd_shop.js",
-    "jd_speed": "node src/task/jd_speed.js",
-    "jd_superMarket": "node src/task/jd_superMarket.js",
-    "jd_unsubscribe": "node src/task/jd_unsubscribe.js",
-    "shareCodesHelper": "node src/utils/shareCodesHelper.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wintjade/zd_task"
+    "url": "https://github.com/lxk0301/jd_scripts.git"
   },
   "keywords": [
     "京东薅羊毛工具, 京东水果、宠物、种豆等等"
@@ -44,7 +19,6 @@
     "crypto-js": "^4.0.0",
     "got": "^11.5.1",
     "http-server": "^0.12.3",
-    "moment": "^2.29.1",
     "node-schedule": "^1.3.2",
     "tough-cookie": "^4.0.0",
     "download": "^8.0.0",
